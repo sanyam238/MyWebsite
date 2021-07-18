@@ -12,8 +12,17 @@
     border-color: firebrick;
 }
 #welcome{
+ position: absolute;
+    height: 500px;
+ color: #FFFF;
+left: 0;
+top:0;
+bottom: 0;    
+right: 0;   
 background: linear-gradient(#acffa1 0%,#00e6cb 100%);
-
+    width: 100%;
+    height: 40%;
+    z-index: 9;
 }
 h1{
     font-size: 50px;
@@ -112,33 +121,19 @@ body{
 }
 #apps{
     width: 100%;
-    background-color: darkgoldenrod;
+    background-color:chartreuse;
 }
-#Game{
-    width: 100%;
-    height: 800px;
-    background-color: chocolate;
-}
-
 .image:hover{
     transition: transform .2s;
 }
 .image{
     transform: scale(0.9);
 }
-body{
-    text-align: center;
-}
 .line{
     height: 6px;
     background-color: #000;
     width: 70px;
     margin: 8px auto;
-}
-#apps{
-    width: 100%;
-    height: 800px;
-    background-color: aliceblue;
 }
 #Games{
     width: 100%;
@@ -161,4 +156,14 @@ img:hover{
 #myCarousel img{
     height: 300px;
     margin-top: 35px;
+}
+#reviews{
+    background-color: blueviolet;
+    height: 100%;
+}
+#work{
+    background-color: chartreuse;
+}
+#inspiration{
+    background-color:indigo;
 }
